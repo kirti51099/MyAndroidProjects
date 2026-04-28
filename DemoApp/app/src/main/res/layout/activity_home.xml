@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/backgroundColor">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:title="Home Dashboard"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:titleTextColor="@color/textDark"
+        android:elevation="4dp"
+        android:layout_marginBottom="10dp"/>
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="25dp"-->
+<!--        android:text="Home Dashboard"-->
+<!--        android:textSize="24sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="@color/textDark" />-->
+
+    <Button
+        android:id="@+id/uploadBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Upload Notes"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/primaryColor"
+        android:drawableLeft="@drawable/baseline_upload_24"
+        android:drawableTint="@android:color/white"
+        android:drawablePadding="8dp"
+        android:padding="12dp"
+        android:elevation="6dp"/>
+
+    <Button
+        android:id="@+id/viewBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:text="View Notes"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/secondaryColor"
+        android:drawableLeft="@drawable/baseline_notes_24"
+        android:drawableTint="@android:color/white"
+        android:drawablePadding="8dp"/>
+
+    <Button
+        android:id="@+id/searchBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF8A65"
+        android:text="Search Notes"
+        android:drawableLeft="@drawable/baseline_search_24"
+        android:drawableTint="@android:color/white"
+        android:drawablePadding="8dp"/>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple">#5C6BC0</color>
+    <color name="blue">#2196F3</color>
+    <color name="lightGray">#F5F5F5</color>
+    <color name="orange">#FF8A65</color>
+
+<!--    <color name="primaryColor">#4A6CF7</color>-->
+    <color name="green">#00C897</color>
+<!--    <color name="backgroundColor">#F2F5FF</color>-->
+<!--    <color name="cardColor">#FFFFFF</color>-->
+<!--    <color name="textDark">#333333</color>-->
+
+        <!-- Primary Colors -->
+        <color name="primaryColor">#2563EB</color>
+        <!-- Royal Blue (Main app color - buttons, toolbar) -->
+
+        <color name="secondaryColor">#10B981</color>
+        <!-- Emerald Green (Accent color - highlights, icons) -->
+
+
+        <!-- Background & Surface -->
+        <color name="backgroundColor">#F8FAFC</color>
+        <!-- Light Gray / Off White (App background) -->
+
+        <color name="cardColor">#FFFFFF</color>
+        <!-- Pure White (Cards, containers) -->
+
+
+        <!-- Text Colors -->
+        <color name="textDark">#1E293B</color>
+        <!-- Dark Slate Blue (Main text color) -->
+
+        <color name="textLight">#64748B</color>
+        <!-- Cool Gray (Secondary text, hints) -->
+
+
+        <!-- UI Elements -->
+        <color name="dividerColor">#E2E8F0</color>
+        <!-- Light Gray (Dividers, borders) -->
+
+
+        <!-- Status Colors -->
+        <color name="errorColor">#EF4444</color>
+        <!-- Red (Error messages) -->
+
+        <color name="successColor">#22C55E</color>
+        <!-- Green (Success messages) -->
+
+
+</resources>
